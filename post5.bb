@@ -54,3 +54,15 @@ Once your change is done, upload it:
 
 The commit is updated (new Patch Set) on Gerrit (no new one was created): 
 [IMG]https://forum.xda-developers.com/attachment.php?attachmentid=4375726[/IMG]
+
+[SIZE="5"][B][U]Setup Gerrit as remote for easy reuse[/U][/B][/SIZE]
+Typing the push command each times could be painful if you upload patches often. 
+You can add Gerrit as a remote for easy reuse: 
+git remote add <local name> ssh://<username>@<gerrit url>:29418/<repo name>
+[IMG]https://forum.xda-developers.com/attachment.php?attachmentid=4375738[/IMG]
+
+Now you can simply use git push command: 
+[IMG]https://forum.xda-developers.com/attachment.php?attachmentid=4375739[/IMG]
+
+[B]Warning[/B]: need to be done in each repos! 
+[B]Warning[/B]: This tip do not prevent typing [FONT="Courier New"]HEAD:refs/for/<branch>[/FONT] each time ! 
