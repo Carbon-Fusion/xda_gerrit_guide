@@ -6,7 +6,10 @@ Divided in 3 parts:
 [*][URL="https://forum.xda-developers.com//general/xda-university/guide-using-gerrit-code-review-t3720802/post74875046"]How to setup & submit for recurent contributes[/URL]
 [*][URL="https://plus.google.com/share?url=https://forum.xda-developers.com//general/xda-university/guide-using-gerrit-code-review-t3720802/post74875049"]How to submit patches one time[/URL]
 [/LIST]
-Here we will setup clones, outside of the build tree. See [URL="https://forum.xda-developers.com//general/xda-university/guide-using-gerrit-code-review-t3720802/post74876750"]faq[/URL] for commit testing. 
+Here we will setup [B]clones[/B], [COLOR="Red"]outside of the build tree[/COLOR]. See [URL="https://forum.xda-developers.com//general/xda-university/guide-using-gerrit-code-review-t3720802/post74876750"]faq[/URL] for commit testing. 
+This mean you do not need build environement to contribute :cool:
+
+Important: for projects using Gerrit, Github [COLOR="red"]pull request will never be merged[/COLOR]! This also mean you [B]do not need to create a Github fork[/B] for every changed projects :victory:
 
 [B][U][SIZE="5"][CENTER]So firstly, I'll explain few terms that are important for you to learn before going towards a bit tricky side. ;)[/CENTER][/SIZE][/U][/B]
 
