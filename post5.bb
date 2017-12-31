@@ -32,3 +32,25 @@ and copy paste the command in your terminal:
 If you have merge conflict you will need to solve (with [FONT="Courier New"]git mergetool[/FONT], internet search and brain). 
 
 Now you can do this step again to merge other commits, or trigger the build for testing. 
+
+
+[SIZE="5"][B][U]Update a pending change[/U][/B][/SIZE]
+You made a commit but notice some problem and it need to be reworked, without creating another one. 
+You need to follow the [B][U]Ensure your clone is up to date[/U][/B] then [B][U]How to test pending changes[/U][/B] with the commit who need reworking. 
+[IMG]https://forum.xda-developers.com/attachment.php?attachmentid=4375711[/IMG]
+
+Once the commit is fetched locally you can make your changes: 
+[IMG]https://forum.xda-developers.com/attachment.php?attachmentid=4375717[/IMG]
+
+Trigger the amend of the commit: 
+[CODE]git commit [B]--amend[/B][/CODE]
+[IMG]https://forum.xda-developers.com/attachment.php?attachmentid=4375718[/IMG]
+
+The git editor open and allow you to change the existing commit message: 
+[IMG]https://forum.xda-developers.com/attachment.php?attachmentid=4375719[/IMG]
+
+Once your change is done, upload it: 
+[IMG]https://forum.xda-developers.com/attachment.php?attachmentid=4375724[/IMG]
+
+The commit is updated (new Patch Set) on Gerrit (no new one was created): 
+[IMG]https://forum.xda-developers.com/attachment.php?attachmentid=4375726[/IMG]
